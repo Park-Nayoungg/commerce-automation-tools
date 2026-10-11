@@ -1,0 +1,144 @@
+[
+    {
+        "path": "image_tools/img_resizing_v1.py",
+        "description": "폴더 내 이미지를 지정 너비로 비율 유지 리사이징",
+        "configuration": []
+    },
+    {
+        "path": "image_tools/image_size_reducer_gui_percent.py",
+        "description": "픽셀 크기를 유지하며 이미지 용량을 줄이는 GUI",
+        "configuration": []
+    },
+    {
+        "path": "image_tools/convertIMG.py",
+        "description": "WebP 이미지를 JPG로 변환하고 투명 배경 처리",
+        "configuration": []
+    },
+    {
+        "path": "image_tools/gif_to_jpg_v1.py",
+        "description": "GIF의 첫 프레임을 JPG로 변환",
+        "configuration": []
+    },
+    {
+        "path": "inventory_tools/b2b_bplstore.py",
+        "description": "BPL 상품·옵션 재고 수집 및 엑셀 저장",
+        "configuration": []
+    },
+    {
+        "path": "inventory_tools/b2b_cerettore.py",
+        "description": "Cerrotorre 옵션별 품절 조사 GUI",
+        "configuration": []
+    },
+    {
+        "path": "inventory_tools/b2b_exped.py",
+        "description": "Exped 상품·옵션 재고 수집 및 기존 엑셀 갱신",
+        "configuration": []
+    },
+    {
+        "path": "inventory_tools/b2b_exped_comfort.py",
+        "description": "Exped 상품·재고 정보를 수집하는 별도 구현",
+        "configuration": []
+    },
+    {
+        "path": "inventory_tools/b2b_jdo.py",
+        "description": "JDO 재고 수집·키워드 검색·변화 감시",
+        "configuration": []
+    },
+    {
+        "path": "inventory_tools/b2b_parkers.py",
+        "description": "Parkers 재고 수집·키워드 검색·변화 감시",
+        "configuration": []
+    },
+    {
+        "path": "inventory_tools/b2boutdoorbridgecrawl.py",
+        "description": "B2B Outdoor 상품별 옵션·재고 수집",
+        "configuration": [
+            "outdoor_start_url"
+        ]
+    },
+    {
+        "path": "inventory_tools/price_monitor.py",
+        "description": "관리자 상품 가격과 엑셀 가격을 비교해 결과 표시",
+        "configuration": [
+            "godomall_base_url"
+        ]
+    },
+    {
+        "path": "product_data/crawl_gocamp_prod.py",
+        "description": "고도몰 관리자 상품 목록 수집 및 엑셀 저장",
+        "configuration": [
+            "godomall_base_url"
+        ]
+    },
+    {
+        "path": "product_data/crawl_northpeak_prod.py",
+        "description": "Northpeak 상품명 수집 및 엑셀 저장",
+        "configuration": []
+    },
+    {
+        "path": "product_data/productinfocollect_v2.py",
+        "description": "구형 관리자 페이지 상품·옵션 정보 수집",
+        "configuration": [
+            "legacy_shop_base_url",
+            "output_directory"
+        ]
+    },
+    {
+        "path": "product_data/godo_IMG_Download_v1.py",
+        "description": "고도몰 관리자 상품 이미지 다운로드",
+        "configuration": [
+            "godomall_base_url",
+            "output_directory"
+        ]
+    },
+    {
+        "path": "product_data/godo_IMG_Download_v2.py",
+        "description": "구형 관리자 페이지 상품 이미지 다운로드",
+        "configuration": [
+            "legacy_shop_base_url",
+            "output_directory"
+        ]
+    },
+    {
+        "path": "product_management/godomall_option_stock_sync.py",
+        "description": "엑셀과 상품·옵션을 매칭하고 관리자 재고에 반영",
+        "configuration": [
+            "godomall_base_url"
+        ]
+    },
+    {
+        "path": "product_management/godo_thumb_update_500to1000.py",
+        "description": "상품 이미지를 1000px 정사각형으로 변환·업로드",
+        "configuration": [
+            "godomall_base_url"
+        ]
+    },
+    {
+        "path": "product_management/good_img_update_v1.py",
+        "description": "관리자 상품 이미지 설정 일괄 수정",
+        "configuration": [
+            "godomall_base_url"
+        ]
+    },
+    {
+        "path": "product_management/seo_supporter_v2.py",
+        "description": "상품 SEO 관련 항목 정리·수정",
+        "configuration": [
+            "godomall_base_url"
+        ]
+    },
+    {
+        "path": "product_management/set_max_buy.py",
+        "description": "상품 최소·최대 구매 수량 설정",
+        "configuration": [
+            "godomall_base_url"
+        ]
+    },
+    {
+        "path": "product_management/update_stock_v1.py",
+        "description": "구형 관리자 페이지 재고 일괄 수정",
+        "configuration": [
+            "legacy_shop_base_url"
+        ]
+    }
+]

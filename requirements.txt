@@ -1,0 +1,4 @@
+-r image_tools/requirements.txt
+-r inventory_tools/requirements.txt
+-r product_data/requirements.txt
+-r product_management/requirements.txt

@@ -1,0 +1,35 @@
+# Python / environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+# Local site settings and credentials
+config.local.json
+.env
+.env.*
+!.env.example
+*cookie*.json
+*cookies*.txt
+*credentials*.json
+*token*.json
+# Business data, logs and downloaded assets
+data/
+output/
+downloads/
+*.xlsx
+*.xls
+*.csv
+*.log
+*_snapshot.json
+*.tmp
+# Executables and build output
+build/
+dist/
+*.exe
+# Local editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
